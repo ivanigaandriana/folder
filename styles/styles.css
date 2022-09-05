@@ -42,6 +42,10 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--accent-color);
 }
+.site-studio:hover,
+.site-studio:focus{
+    color:var(--header-logo-color);
+}
 .site-nav-cont{ 
 font-family: 'Roboto';
 font-weight: 500;
@@ -49,6 +53,10 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--title-text-color);
+}
+.site-nav-cont:hover,
+.site-nav-cont:focus{
+    color:var(--accent-color);
 }
 .site-nav-cont1{ 
 font-family: 'Roboto';
@@ -58,6 +66,10 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--title-text-color);
 }
+.site-nav-cont1:hover,
+.site-nav-cont1:focus{
+    color: var(--accent-color);
+}
 .site-info{
 font-family: 'Roboto';
 font-weight: 500;
@@ -66,6 +78,10 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--accent-color);
 }
+.site-info:hover,
+.site-info:focus{
+    color: var(--header-logo-color);
+}
 .site-tel{
 font-family: 'Roboto';
 font-weight: 500;
@@ -73,6 +89,9 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
+}.site-tel:hover,
+.site-tel:focus{
+    color: var(--accent-color);
 }
 /* Ефективні рішення для вашого бізнесу */
 .herou{
@@ -199,7 +218,6 @@ color:var(--accent-color);
 }
 .adress{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -208,21 +226,31 @@ letter-spacing: 0.03em;
 
 color:var(--secondary-text-color);
 }
+.adress:hover,
+.adress:focus{
+    color: var(--accent-color);
+}
 .footer-mailto{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+.footer-mailto:hover,
+.footer-mailto:focus{
+    color: var(--accent-color);
+}
 .footer-tel{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel:hover,
+.footer-tel:focus{
+    color: var(--accent-color);
 }
